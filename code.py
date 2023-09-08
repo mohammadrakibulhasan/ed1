@@ -3,7 +3,7 @@
 import numpy as np 
 import pandas as pd 
 #import matplotlib.pyplot as plt # visualizing data
-import seaborn as sns
+# import seaborn as sns
 
 # import csv file
 df = pd.read_csv('https://raw.githubusercontent.com/mohammadrakibulhasan/eda1/main/Diwali%20Sales%20Data.csv', encoding= 'unicode_escape')
@@ -29,7 +29,7 @@ df[['Age', 'Orders', 'Amount']].describe()
 
 # plotting a bar chart for Gender and it's count
 
-ax = sns.countplot(x = 'Gender',data = df)
+# ax = sns.countplot(x = 'Gender',data = df)
 
-for bars in ax.containers:
-    ax.bar_label(bars)
+# for bars in ax.containers:
+#     ax.bar_label(bars)
