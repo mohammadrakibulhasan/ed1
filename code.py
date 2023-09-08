@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt # visualizing data
 import seaborn as sns
 
 # import csv file
-df = pd.read_csv('https://raw.githubusercontent.com/mohammadrakibulhasan/eda/main/Diwali%20Sales%20Data.csv', encoding= 'unicode_escape')
+df = pd.read_csv('https://raw.githubusercontent.com/mohammadrakibulhasan/eda1/main/Diwali%20Sales%20Data.csv', encoding= 'unicode_escape')
 df.shape
 df.head()
 df.info()
