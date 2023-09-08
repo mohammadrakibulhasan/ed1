@@ -2,7 +2,7 @@
 
 import numpy as np 
 import pandas as pd 
-import matplotlib.pyplot as plt # visualizing data
+#import matplotlib.pyplot as plt # visualizing data
 import seaborn as sns
 
 # import csv file
